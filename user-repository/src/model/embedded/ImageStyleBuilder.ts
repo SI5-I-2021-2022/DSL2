@@ -55,7 +55,7 @@ export class ImageStyleBuilder<ParentBuilder> {
         return this
     }
 
-    editImageMaxHeightImage(value:number,unit?: UnitySize){
+    editImageMaxHeight(value:number,unit?: UnitySize){
         if(!this.blockImageStyle){
             this.blockImageStyle = new BlockStyleBuilder<ImageStyleBuilder<ParentBuilder>>(this);
         }

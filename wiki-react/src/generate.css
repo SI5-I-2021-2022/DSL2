@@ -1,87 +1,119 @@
 .wiki {
-	background-color: red;
+	background-color: #262121;
+	margin: 0px;
+	padding: 5% 10% 10% 10%;
 }
 .wiki .text {
-	color: black;
-	font-family: Trebuchet MS;
+	color: white;
+	font-size: 13pt;
+	font-family: rubik;
 }
-.wiki .text b{
+.wiki .text a{
+	color: #F8CA01;
+}
+.wiki .image{
+	align-content: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+}
+.wiki .image{
+	font-style: italic;
+	color: white;
+	font-size: 11pt;
+}
+.wiki table{
+	border-collapse: collapse;
+}
+.wiki table{
+	align-content: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+.wiki table td{
+	background-color: #161111;
+	border: 2px #F8CA01 solid;
+}
+.wiki table .table-header-column{
+	background-color: #060101;
+}
+.wiki table tr.table-header-row>td{
+	background-color: #363131;
+}
+.wiki .button{
+	background-color: #F8CA01;
+	margin: 10px 0px 10px 0px;
+	padding: 10px;
+	border-radius: 20px;
+}
+.wiki .button{
 	font-weight: bold;
-	color: black;
+	color: white;
+	text-decoration: none;
+	text-align: center;
 }
-.wiki .subject {
-	background-color: white;
-	margin: 20px;
+.wiki .subject .title {
+	color: white;
 }
-.wiki .subject .infoBox {
-	background-color: #F6F6FB;
-	border: 2px #566BB3 solid;
-	margin: 15px;
+.wiki .subject .chapter .title {
+	border-bottom: 1px #565252 solid;
+	padding: 0px 0px 10px 0px;
 }
-.wiki .subject .infoBox .text b{
-	font-weight: bold;
-	color: black;
+.wiki .subject .chapter .gallery .gallery-container .image .image-resume{
+	max-width: 330px;
 }
-.wiki .subject .infoBox .text a{
-	color: #566BB3;
-}
-.wiki .subject .summary {
-	background-color: white;
-	margin: 15px;
-}
-.wiki .subject .summary .text {
-	color: black;
-	font-family: Trebuchet MS;
-}
-.wiki .subject .summary .text b{
-	font-weight: bold;
-	color: black;
-}
-.wiki .subject .relatedSubject {
-	background-color: white;
-	margin: 15px;
-	box-shadow: 2px 2px gray;
-}
-.wiki .subject .relatedSubject .text {
-	font-size: 10pt;
-}
-.wiki .subject .relatedSubject .text b{
-	font-weight: bold;
-	color: black;
-}
-.wiki .subject .relatedSubject .text a{
-	font-weight: bold;
-	color: #566BB3;
-}
-.wiki .subject .chapter .gallery .gallery-container .image:hover{
-	border: 2px #566BB3 solid;
-}
-.wiki .subject .chapter .gallery .gallery-container .image .image-resume:hover{
-	max-width: 600px;
-}
-.wiki .subject .chapter .gallery .gallery-container .image img:hover{
+.wiki .subject .chapter .gallery .gallery-container .image img{
 	max-height: 600px;
-	max-width: 600px;
+	max-width: 330px;
 }
 .wiki .subject .chapter .gallery {
 ŧdisplay: flex;
 ŧflex-wrap: wrap;
 }
-@media screen and (max-width: 600px) {
-.wiki {
-	background-color: #F5F5FA;
+.wiki .subject .chapter .chapter .title {
+	font-size: 15pt;
+	border-bottom: 0px black solid;
 }
-.wiki .text {
-	color: black;
-	font-family: Trebuchet MS;
+.wiki .subject .tableOfContent {
+	border: 1px #565252 solid;
+	padding: 0px 0px 0px 0px;
 }
-.wiki .text b{
+.wiki .subject .tableOfContent .title {
+	border-bottom: 1px #565252 solid;
+	padding: 0px 0px 10px 10px;
+}
+.wiki .subject .tableOfContent .text a{
+	color: white;
+}
+.wiki .subject .references {
+	background-color: #353030;
+	border: 1px #5A5485 solid;
+	padding: 0px 15px 5px 15px;
+}
+.wiki .subject .references .title {
+	text-align: center;
+}
+.wiki .subject .relatedSubject {
+	background-color: #353030;
+	border: 1px #5A5485 solid;
+	padding: 0px 15px 5px 15px;
+}
+.wiki .subject .relatedSubject .title {
+	text-align: center;
+}
+.wiki .navBar {
+	background-color: #353030;
+	border: 1px #5A5485 solid;
+	padding: 15px;
+}
+.wiki .navBar .text {
 	font-weight: bold;
-	color: red;
+	color: #F8CA01;
+	font-size: 18pt;
 }
-}@media screen and (max-width: 600px) {
-.wiki .subject {
-	background-color: red;
-	margin: 20px;
-}
+.wiki .navBar .text a{
+	text-decoration: none;
 }

@@ -14,7 +14,7 @@ export class GalleryBuilder<ParentBuilder>{
     constructor(parentBuilder:ParentBuilder){
         this.parentBuilder=parentBuilder;
         this.imagesStyle = new ImageStyleBuilder(this);
-        this.imagesStyle.editImageMaxHeightImage(600);//default
+        this.imagesStyle.editImageMaxHeight(600);//default
         this.imagesStyle.editImageMaxWidthContainer(600);//default
     }
     /**
